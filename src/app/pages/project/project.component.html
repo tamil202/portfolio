@@ -1,0 +1,23 @@
+<div class="min-h-screen cursor-none min-w-full bg-black container mx-auto ">
+<div class="top-screen "></div>
+<div class=' z-10'><app-particles></app-particles></div>
+<div class="z-50 flex justify-between px-5 py-5  mb-3">
+    <a></a>
+    <a routerLink=" "
+        class="z-50 text-black cursor-none bg-white font-bold text-xl px-5 py-1 uppercase rounded-xl">back</a>
+</div>
+
+<div class="z-50 flex justify-center min-h-screen items-center">
+    <div class="z-50 w-[500px] h-80 text-white rounded-md">
+        <div class="flex overflow-auto  flex-col  space-y-5 items-center h-full justify-center">
+           @for (item of github; track $index) {
+            <a href={{item}} class="cursor-none">
+                {{item}}
+            </a>
+           }
+        </div>
+    </div>
+</div>
+<div class="bottom-screen"></div>
+</div>
+<div #cursor class="cursorPointer z-50"></div>

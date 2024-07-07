@@ -1,0 +1,127 @@
+<div class=" relative   select-none  cursor-none bg-black min-h-screen min-w-full overflow-hidden p-5">
+<div class="z-50  flex md:justify-end justify-center px-5 mt-4 mb-3 ">
+    <a routerLink=" "
+        class="z-50 text-black cursor-none bg-white font-bold text-xl px-5 py-1 uppercase rounded-xl">Back</a>
+</div>
+    <app-particles></app-particles>
+<div class="left-screen w-full h-[500px] border border-white hover:bg-white hover:text-black text-white "></div>
+<div class="relative pr-10 ">
+    <div class="z-10 flex justify-center items-center h-20 mt-20">
+        <h1 class="md:text-[200px] sm:text-[150px] text-[60px]  text-white opacity-20 uppercase font-sans font-extrabold">details</h1>
+    </div>
+   <div class="flex  font-serif"> 
+        <div class="grid md:grid-cols-2 grid-cols-1 sm:grid-cols-1 gap-y-3 md:gap-y-5 md:gap-x-5 ">
+            <!-- personal details -->
+            <div class="overflow-auto p-2 text-white  animate-fade-down animate-ease-linear animate-alternate border border-white rounded  w-[350px] h-[200px]  sm:w-[600px] sm:h-[300px] md:w-[700px] md:h-[400px]">
+           <div class="text-center">
+            
+            <h1 class="z-50 font-bold uppercase font-sans text-xl p-1 text-orange-700">{{text}}</h1>
+                 <div class="absolute z-50 text-left space-y-2 p-3 ">
+                     <h1 class="z-50  text-2xl uppercase"><span class="capitalize text-orange-700 font-extrabold">firstName: </span> {{firstname}}</h1>
+                     <h1 class="z-50  text-2xl uppercase nimate-once animate-ease-linear animate-normal"><span class="animate-ping animate-once animate-alternate-reverse capitalize text-orange-700 font-extrabold">lastname: </span> {{'D'}}</h1>
+                     <h1 class="z-50  text-2xl uppercase nimate-once animate-ease-linear animate-normal"><span class="animate-ping animate-once animate-alternate-reverse capitalize text-orange-700 font-extrabold">age: </span> {{age}}</h1>
+                     <h1 class="z-50  text-2xl uppercase"><span class="capitalize  text-orange-700 font-extrabold">Gender: </span>Male</h1>
+                     <h1 class="z-50  text-2xl uppercase"><span class="capitalize  text-orange-700 font-extrabold">Date of birth: </span>23/07/2002</h1>
+                     <h1 class="z-50  text-2xl uppercase"><span class="capitalize  text-orange-700 font-extrabold">nationality: </span>Indian</h1>
+                    <h1 class="z-50  text-2xl uppercase"><span class="capitalize  text-orange-700 font-extrabold ">Languages: </span>{{language}}</h1>
+                   
+                 </div>
+            <div class="absolute left-0 md:left-36 z-10 flex justify-center  ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                    class="size-96 object-cover z-0 opacity-10">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                </svg>
+               
+            </div>
+                
+           </div>
+            </div>
+            <!-- education details -->
+            <div
+                class="overflow-auto p-2 text-white  animate-fade-down animate-ease-linear animate-alternate border border-white rounded  w-[350px] h-[200px]  sm:w-[600px] sm:h-[300px] md:w-[700px] md:h-[400px]">
+                <div class="text-center">
+            
+                    <h1 class="z-50 font-bold uppercase font-sans text-xl p-1 text-green-700">{{text1}}</h1>
+                    <div class="absolute z-50 text-left space-y-2 p-3 ">
+                        <div class="flex items-center ">
+                            <h1 class="z-50  text-xl uppercase"><span class="capitalize text-green-700 font-extrabold text-2xl">SSLC:
+                                </span>dr. krishna vikas matric hr sec school</h1> <span class="ml-5">{{per}} / 100%</span>
+                        </div>
+                        <div class="flex items-center ">
+                            <h1 class="z-50  text-xl uppercase"><span class="capitalize text-green-700 font-extrabold text-2xl">HSC:
+                                </span>dr. krishna vikas matric hr sec school</h1> <span class="ml-5">{{per1}} / 100%</span>
+                        </div>
+                        <div class="flex items-center ">
+                            <h1 class="z-50  text-xl uppercase"><span class="capitalize text-green-700 font-extrabold text-2xl">UG:
+                                </span>muthayammal college of engineering</h1> <span class="ml-5">{{per2}} / 10 CGPA</span>
+                        </div>
+                       
+                    </div>
+                    <div class="absolute left-0 md:left-36 z-10 flex justify-center  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            class="size-96 object-cover z-10 opacity-10">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                        </svg>
+
+            
+                    </div>
+            
+                </div>
+            </div>
+            <!-- skills details -->
+          <div
+                class="overflow-auto p-2 text-white  animate-fade-down animate-ease-linear animate-alternate border border-white rounded  w-[350px] h-[200px]  sm:w-[600px] sm:h-[300px] md:w-[700px] md:h-[400px]">
+                <div class="text-center">
+            
+                    <h1 class="z-50 font-bold uppercase font-sans text-xl p-1 text-teal-500">{{text2}}</h1>
+                    <div class="absolute z-50 text-left space-y-2 p-3 ">
+                        <div class="flex w-full justify-center">
+                            <div class="cursor-none">
+                                <ul class="grid md:grid-cols-4 sm:grid-cols-4 grid-cols-2 ">
+                                    @for (item of skill; track $index) {
+                                    <li class="m-5 text-xl bg-gray-500 opacity-30 hover:opacity-40 text-white px-3 py-1 rounded-sm">{{item}}</li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute left-0 md:left-36 z-10 flex justify-center  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            class="size-96 object-cover z-10 opacity-10">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <!-- project details -->
+            <div
+                class="overflow-auto p-2 text-white  animate-fade-down animate-ease-linear animate-alternate border border-white rounded  w-[350px] h-[200px]  sm:w-[600px] sm:h-[300px] md:w-[700px] md:h-[400px]">
+                <div class="text-center">
+            
+                    <h1 class="z-50 font-bold uppercase font-sans text-xl p-1 text-pink-700">{{text3}}</h1>
+                    <div class="absolute z-50 text-left space-y-2 p-3 ">
+                        <h1 class="text-xl font-extrabold uppercase text-pink-700">MySql web: </h1>
+                        <h1 class="capitalize text-xl">{{projectin}}</h1>
+                    </div>
+                    <div class="absolute left-0 md:left-36 z-10 flex justify-center  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            class="size-96 object-cover z-10 opacity-10">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+</div>
+
+
+
+
+<div class="right-screen w-full h-[500px] border border-white hover:bg-white hover:text-black text-white "></div>
+</div>
+<div #cursor class="hidden sm:block cursorPointer z-50 ">

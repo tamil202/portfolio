@@ -1,0 +1,62 @@
+
+<div class=" relative   select-none  cursor-none bg-black min-h-screen min-w-full overflow-hidden">
+        <div class="left-screen w-full h-[500px] border border-white hover:bg-white hover:text-black text-white "></div>
+
+    <app-particles></app-particles>
+   
+<div class="z-50  flex justify-between px-5 mt-4 mb-3">
+    <a routerLink="/about" class="z-50 text-black cursor-none bg-white font-bold text-xl px-5 uppercase py-1 rounded-xl">About</a>
+    <a routerLink=" " class="z-50 text-black cursor-none bg-white font-bold text-xl px-5 py-1 uppercase rounded-xl">Back</a>
+   </div>
+            <div class="flex justify-center  mt-56  md:mt-10 z-0">
+              <h1 class="text-9xl   md:text-[300px] text-white font-bold opacity-15 uppercase">Skill</h1>
+              <div class="absolute top-[10%] sm:top-[15%] md:top-[25%]  z-50 flex flex-col md:space-x-10 px-5 gap-y-10 md:flex-row">
+                <!-- 01 -->
+                <div class="text-white font-serif z-50 p-3 overflow-auto border border-white w-[300px] h-[300px] sm:w-[500px] sm:h-[500px] md:w-[800px] md:h-[500px]">
+                    <div class="text-center flex justify-center items-center gap-x-4"><span class="text-white">
+                    <i class="fa-solid fa-desktop"></i>
+                    </span> <h1 class="z-50 font-mono font-extrabold text-3xl uppercase text-white ">{{text}}</h1></div>
+                  <div class="flex flex-col gap-y-3 md:gap-y-5 mt-10 md:p-10">
+                        <p class="capitalize md:text-xl underline">{{para1}}</p>
+                        <p class="capitalize md:text-xl">{{para2}}</p>
+                        <p class="capitalize md:text-xl">{{para3}}</p>
+                        <p class="capitalize md:text-xl">{{para4}}</p>
+                  </div>
+                </div>
+                <!-- 02 -->
+                <div class=" z-50 border p-3 overflow-auto border-white w-[300px] h-[300px] sm:w-[500px] sm:h-[500px] md:w-[800px] md:h-[500px]">
+                    <div class="text-center flex justify-center items-center gap-x-4"><span class="text-white">
+                            <i class="fa-solid fa-xmarks-lines"></i>
+                        </span>
+                        <h1 class="z-50 font-mono font-extrabold text-3xl uppercase text-white ">{{text1}}</h1>
+                    </div>
+                    <div class="text-white flex flex-col gap-y-3 md:gap-y-5 mt-10 md:p-10">
+                        <p class="capitalize md:text-xl underline">{{para5}}</p>
+                        <p class="capitalize md:text-xl">{{para6}}</p>
+                        <p class="capitalize md:text-xl">{{para7}}</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+    <div class="z-50 flex items-center justify-center overflow-hidden">
+        <div class="md:absolute md:top-[50%]  space-y-5 md:left-2 text-white cursor-none  flex  md:flex-col items-center gap-x-5  flex-row text-3xl justify-center">
+            <a href="https://www.linkedin.com/in/tamilvanan-d-1a5925260/" target="_blank"
+                class="hover:text-blue-600 cursor-none  hover:animate-alternate  text-4xl "><span
+                    title="linkedin"><i class="fa-brands fa-linkedin"></i></span></a>
+            <a href="https://github.com/tamil202/tamil202" target="_blank"
+                class="hover:text-green-600 cursor-none  text-4xl "><span
+                    title="github"><i class="fa-brands fa-github"></i></span></a>
+            <a href="mailto:tvanan834@gmail.com" target="_blank"
+                class="hover:text-pink-600 cursor-none   text-4xl "><span
+                    title="gmail"><i class="fa-solid fa-envelope"></i></span></a>
+
+                   <div class="hidden md:flex  text-end  justify-center items-center animate-fade-right animate-duration-[2000ms] animate-alternate  ">
+                    <span class="w-1 h-[400px] bg-white"></span>
+                   </div>
+        </div>
+    
+    </div>
+        <div class="right-screen w-full h-[500px] border border-white hover:bg-white hover:text-black text-white "></div>
+</div>
+<div #cursor class="hidden sm:block cursorPointer z-50 ">
+</div>

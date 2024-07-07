@@ -1,0 +1,47 @@
+<div  class="bg-black min-h-svh cursor-none p-10 select-none overflow-hidden">
+    <app-particles></app-particles>
+    <div class="top-screen "></div>
+    <div class="z-50 flex justify-between px-5  mb-3">
+        <a routerLink="/skill"  class="z-50 text-black cursor-none bg-white font-bold text-xl px-5 py-1 uppercase rounded-xl">skill</a>
+        <a routerLink=" "  class="z-50 text-black cursor-none bg-white font-bold text-xl px-5 py-1 uppercase rounded-xl">back</a>
+    </div>
+
+   <div class=" w-full">
+    <div class="flex justify-center  mt-56  md:mt-10 z-0">
+        <h1 class="text-9xl   md:text-[300px] text-white font-bold opacity-15 uppercase">About</h1>
+    </div>
+    <div class="absolute top-0 left-0 md:left-36 overflow-hidden z-30 flex x justify-center items-center min-h-screen container mx-auto">
+    <div class=" overflow-auto w-full   h-[500px] border    text-white p-5">
+        <p class="m-2 flex flex-wrap text-wrap text-[20px] font-mono">
+            {{text4}}
+        </p>
+        <p class="m-2 flex flex-wrap text-wrap text-[20px] font-mono">
+          {{text1}}
+        </p>
+        <br>
+        <p class="m-2 flex flex-wrap text-wrap text-[20px] font-mono">
+            {{text2}}
+        </p>
+        <br>
+        <p class="m-2 flex flex-wrap text-wrap text-[20px] font-mono">
+            {{text3}}
+        </p>
+    </div>
+    </div>
+   </div>
+<div class="z-50 absolute top-[90%] left-[30%] md:left-[45%] overflow-hidden animate-fade-right animate-ease-linear animate-alternate">
+    <div
+        class=" text-white cursor-none  flex   items-center gap-x-10  flex-row text-3xl justify-center">
+        <a href="https://www.linkedin.com/in/tamilvanan-d-1a5925260/" target="_blank" class="hover:text-blue-600 cursor-none  hover:animate-alternate  text-4xl animate-fade-right animate-duration-[1000ms] animate-ease-linear animate-alternate"><span
+                title="linkedin"><i class="fa-brands fa-linkedin"></i></span></a>
+        <a href="https://github.com/tamil202/tamil202" target="_blank" class="hover:text-green-600 cursor-none  text-4xl animate-fade-right animate-duration-[2000ms] animate-ease-linear animate-alternate"><span title="github"><i
+                    class="fa-brands fa-github"></i></span></a>
+        <a href="mailto:tvanan834@gmail.com" target="_blank" class="hover:text-pink-600 cursor-none   text-4xl animate-fade-right animate-duration-[3000ms] animate-ease-linear animate-alternate"><span title="gmail"><i
+                    class="fa-solid fa-envelope"></i></span></a>
+    </div>
+</div>
+    <div class="bottom-screen"></div>
+</div>
+
+
+<div #cursor class="cursorPointer z-50"></div>
